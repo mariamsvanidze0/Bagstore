@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="MS" />
+    <meta name="description" content="Shop at Bagstore." />
+    <link
+      rel="icon"
+      href="../assets/images/img/iconn.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/vendor/reset.css" />
+    <link rel="stylesheet" href="../assets/styles/styles.css" />
+    <link rel="stylesheet" href="../assets/styles/components/buildbag.css" />
+    <link rel="stylesheet" href="../assets/styles/components/header.css" />
+    <link rel="stylesheet" href="../assets/styles/components/footer.css" />
+    <link rel="stylesheet" href="../assets/styles/components/breadcrumb.css" />
+    <link rel="stylesheet" href="../assets/styles/pages/cart.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Shopping Cart - Bagstore</title>
+  </head>
+  <body>
+    <div class="frame">
+      <header role="banner">
+        <div class="header-container">
+          <div>
+            <img
+              src="../assets/images/svg/tabs.svg"
+              alt="navigation tabs icon"
+            />
+            <a href="../index.html" aria-label="Go to Bagstore homepage"
+              >Bagstore</a
+            >
+          </div>
+          <nav role="navigation" aria-label="Main Navigation">
+            <ul>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Children</a></li>
+              <li><a href="#">Brand</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+            </ul>
+          </nav>
+          <div>
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              aria-label="Search products"
+            />
+            <a href="#">About</a>
+            <a href="#">FAQs</a>
+            <nav role="navigation" aria-label="User menu">
+              <a href="#" aria-label="User account">
+                <img src="../assets/images/svg/person.svg" alt="person icon" />
+              </a>
+              <a href="#" aria-label="Wishlist">
+                <img src="../assets/images/svg/heart.svg" alt="heart icon" />
+              </a>
+              <a href="#" aria-label="Shopping cart">
+                <img
+                  src="../assets/images/svg/bag.svg"
+                  alt="shopping bag icon"
+                />
+                <img
+                  src="../assets/images/svg/notification.svg"
+                  alt="notification icon"
+                />
+              </a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="your-cart" aria-labelledby="cart-heading">
+          <div class="cart-header">
+            <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="../index.html">Home</a>
+                </li>
+                <li class="mx-2">
+                  <img
+                    src="../assets/images/svg/arrow.svg"
+                    alt="breadcrumb arrow icon"
+                  />
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Shopping Cart
+                </li>
+              </ol>
+            </nav>
+            <div class="c-header">
+              <h2>Your Cart</h2>
+              <div class="price">
+                <span>3 items</span>
+                <p>$971.55</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-order">
+            <div class="cart-cards">
+              <div class="cart-item">
+                <div class="item-cont">
+                  <div class="bag-item hb">
+                    <div class="img-cont">
+                      <div class="tag bl">New</div>
+                      <div>
+                        <img
+                          src="../assets/images/img/cart/hobo.png"
+                          alt="Hobo Small bag"
+                        />
+                      </div>
+                    </div>
+                    <div class="bag-item-desc">
+                      <h4>Hobo Small</h4>
+                      <p>Color: Midnight Black</p>
+                      <span>Premium Italian Leather</span>
+                    </div>
+                  </div>
+                  <div class="quantity-cont">
+                    <span>$199.00</span>
+                    <div class="plus" aria-label="Quantity selector">
+                      <span role="button" tabindex="0">-</span>
+                      <p>1</p>
+                      <span role="button" tabindex="0">+</span>
+                    </div>
+                    <p>$199.00</p>
+                    <div
+                      class="can"
+                      role="button"
+                      aria-label="Remove item"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart-item">
+                <div class="item-cont">
+                  <div class="bag-item">
+                    <div class="img-cont narrow">
+                      <div class="tag or">Sale</div>
+                      <div>
+                        <img
+                          src="../assets/images/img/cart/satchel.png"
+                          alt="Satchel Medium bag"
+                        />
+                      </div>
+                    </div>
+                    <div class="bag-item-desc middle">
+                      <h4>Satchel Medium</h4>
+                      <p>Color: Cream Ivory</p>
+                      <span>Handcrafted Design</span>
+                    </div>
+                  </div>
+                  <div class="quantity-cont">
+                    <span>$249.00</span>
+                    <div class="plus" aria-label="Quantity selector">
+                      <span role="button" tabindex="0">-</span>
+                      <p>2</p>
+                      <span role="button" tabindex="0">+</span>
+                    </div>
+                    <p>$498.00</p>
+                    <div
+                      class="can"
+                      role="button"
+                      aria-label="Remove item"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart-item last">
+                <div class="item-cont">
+                  <div class="bag-item tot">
+                    <div class="img-cont narrow">
+                      <div class="tag pur">Custom</div>
+                      <div>
+                        <img
+                          src="../assets/images/img/cart/tote.png"
+                          alt="Custom Tote bag"
+                        />
+                      </div>
+                    </div>
+                    <div class="bag-item-desc purple">
+                      <h4>Custom Tote</h4>
+                      <p>Color: Navy, Strap: Chain</p>
+                      <span>Personalized Build</span>
+                    </div>
+                  </div>
+                  <div class="quantity-cont">
+                    <span>$214.00</span>
+                    <div class="plus" aria-label="Quantity selector">
+                      <span role="button" tabindex="0">-</span>
+                      <p>1</p>
+                      <span role="button" tabindex="0">+</span>
+                    </div>
+                    <p>$214.00</p>
+                    <div
+                      class="can"
+                      role="button"
+                      aria-label="Remove item"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clear-bttn">
+                <a href="#" aria-label="Continue shopping">
+                  <img
+                    src="../assets/images/svg/arrow-left.svg"
+                    alt="left arrow icon"
+                  />
+                  Continue Shopping
+                </a>
+                <button type="button">Clear Shopping Cart</button>
+              </div>
+            </div>
+
+            <aside
+              class="order-summary"
+              aria-labelledby="order-summary-heading"
+            >
+              <div class="summary-cont">
+                <h2>Order Summary</h2>
+                <div class="order-total">
+                  <div class="subtotal">
+                    <p>Subtotal</p>
+                    <p>$911.00</p>
+                  </div>
+                  <div class="subtotal">
+                    <p>Shipping</p>
+                    <p>$15.00</p>
+                  </div>
+                  <div class="subtotal">
+                    <p>Tax</p>
+                    <p>$45.55</p>
+                  </div>
+                  <div class="line"></div>
+                  <div class="ord-total">
+                    <p>Order Total</p>
+                    <p>$971.55</p>
+                  </div>
+                </div>
+                <div class="coupon">
+                  <p>Have a coupon?</p>
+                  <div class="input-cont">
+                    <input
+                      type="text"
+                      placeholder="Enter coupon code"
+                      aria-label="Coupon code input"
+                    />
+                    <button type="button">Apply</button>
+                  </div>
+                </div>
+                <button class="checkout-bttn" type="button">
+                  <a href="./checkout.html">Proceed to Checkout</a>
+                  <img
+                    src="../assets/images/svg/right-side-arr.svg"
+                    alt="right arrow icon"
+                  />
+                </button>
+                <div class="credit">
+                  <p>We Accept:</p>
+                  <div
+                    class="banks"
+                    role="group"
+                    aria-label="Accepted payment methods"
+                  >
+                    <div class="visa" aria-label="Visa"></div>
+                    <div class="mast" aria-label="Mastercard"></div>
+                    <div class="ppal" aria-label="PayPal"></div>
+                    <div class="amex" aria-label="American Express"></div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="build-bag" aria-labelledby="build-bag-heading">
+          <div class="build-header">
+            <h2>Build Your Perfect Bag</h2>
+            <p>
+              Customize every detail to create a bag that's uniquely yours.
+              Choose from premium materials and personalized options.
+            </p>
+          </div>
+          <div class="build-content">
+            <div class="build-img">
+              <div>
+                <div class="preview">Live Preview</div>
+                <div>
+                  <img
+                    src="../assets/images/img/cart/yellow-bag.png"
+                    alt="yellow bag preview"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="filter">
+              <div>
+                <h2>1. Choose Your Style</h2>
+                <div class="style-buttons">
+                  <button class="black-btn" type="button">Tote</button>
+                  <button type="button">Crossbody</button>
+                  <button type="button">Hobo</button>
+                </div>
+              </div>
+              <div>
+                <h2>2. Select a Color</h2>
+                <div class="color-palette fill">
+                  <div class="bll" aria-label="Blue color"></div>
+                  <div class="whh" aria-label="White color"></div>
+                  <div class="grr" aria-label="Green color"></div>
+                  <div class="dgr" aria-label="Dark gray color"></div>
+                </div>
+              </div>
+              <div>
+                <h2>3. Pick a Strap</h2>
+                <div class="style-buttons">
+                  <button type="button">Leather</button>
+                  <button class="black-btn" type="button">Chain</button>
+                  <button type="button">Canvas</button>
+                </div>
+              </div>
+              <div class="fil-add">
+                <h2>4. Add-ons <span>(+$15 each)</span></h2>
+                <div class="fil-inputs">
+                  <div>
+                    <input type="text" aria-label="Add monogramming option" />
+                    <p>Monogramming</p>
+                  </div>
+                  <div>
+                    <input type="text" aria-label="Add extra pocket option" />
+                    <p>Extra Pocket</p>
+                  </div>
+                </div>
+              </div>
+              <div class="fil-bttn">
+                <div class="total-price">
+                  <h3>Total Price:</h3>
+                  <p>$214.00</p>
+                </div>
+                <button type="button">
+                  <a href="./pages/shoppingBag.html">
+                    <img src="../assets/images/svg/cart.svg" alt="cart icon" />
+                    Add to Bag
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer role="contentinfo">
+        <div class="footer-container">
+          <div class="subscription">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>
+              AND BE THE FIRST TO KNOW ABOUT THE LATEST RELEASES, OFFERS AND
+              NEWS FROM BAGSTORE.COM
+            </p>
+            <div>
+              <input
+                type="text"
+                name="search"
+                placeholder="Enter your email here"
+                aria-label="Email address for newsletter subscription"
+              />
+              <div>
+                <img
+                  src="../assets/images/svg/arrow-right.svg"
+                  alt="arrow-right icon"
+                />
+              </div>
+            </div>
+            <span>I have read and agree to the Bagstore privacy policy.</span>
+          </div>
+          <div class="footer-links">
+            <h3>Menu</h3>
+            <nav aria-label="Footer menu">
+              <ul>
+                <li><a href="#">Man</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Children</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-links">
+            <h3>Support</h3>
+            <nav aria-label="Support links">
+              <ul>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

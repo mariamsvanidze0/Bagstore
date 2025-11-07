@@ -1,0 +1,30 @@
+.breadcrumb-nav {
+  width: 100%;
+  max-width: 150.4rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.3rem;
+}
+.breadcrumb li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #737373;
+  transition: all 0.3s ease;
+}
+.breadcrumb li a:hover {
+  color: #404040;
+}
+.breadcrumb li:last-child {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #171717;
+}

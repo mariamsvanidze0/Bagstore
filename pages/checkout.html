@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="MS" />
+    <meta name="description" content="Shop at Bagstore." />
+    <link
+      rel="icon"
+      href="../assets/images/img/iconn.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/vendor/reset.css" />
+    <link rel="stylesheet" href="../assets/styles/styles.css" />
+    <link rel="stylesheet" href="../assets/styles/components/header.css" />
+    <link rel="stylesheet" href="../assets/styles/components/footer.css" />
+    <link rel="stylesheet" href="../assets/styles/pages/checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bagstore Checkout</title>
+  </head>
+  <body>
+    <div class="frame">
+      <header role="banner">
+        <div class="header-container">
+          <div>
+            <img src="../assets/images/svg/tabs.svg" alt="Menu icon" />
+            <a href="../index.html" aria-label="Go to homepage">Bagstore</a>
+          </div>
+          <nav role="navigation" aria-label="Main navigation">
+            <ul>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Children</a></li>
+              <li><a href="#">Brand</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+            </ul>
+          </nav>
+          <div>
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              aria-label="Search products"
+            />
+            <a href="#">About</a>
+            <a href="#">FAQs</a>
+            <nav role="navigation" aria-label="User navigation">
+              <a href="#" aria-label="User profile">
+                <img src="../assets/images/svg/person.svg" alt="Profile icon" />
+              </a>
+              <a href="#" aria-label="Favorites">
+                <img src="../assets/images/svg/heart.svg" alt="Heart icon" />
+              </a>
+              <a href="#" aria-label="Shopping bag">
+                <img
+                  src="../assets/images/svg/bag.svg"
+                  alt="Shopping bag icon"
+                />
+                <img
+                  src="../assets/images/svg/notification.svg"
+                  alt="Notification icon"
+                />
+              </a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main role="main">
+        <section class="checkout" aria-label="Checkout form">
+          <div class="checkout-header">
+            <h2>Checkout</h2>
+            <p>Complete your purchase in just a few steps</p>
+          </div>
+          <div class="contact-info">
+            <div class="cont-info">
+              <div>1</div>
+              <h3>Contact Information</h3>
+            </div>
+            <div class="cont-log">
+              <p>Already have an account?</p>
+              <button aria-label="Log in to your account">Log in</button>
+            </div>
+            <div class="cont-mail">
+              <label for="mail">Email Address</label>
+              <input
+                class="shared"
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="your.email@example.com"
+              />
+            </div>
+          </div>
+
+          <div class="shipping-address">
+            <div class="cont-info gray-c">
+              <div>2</div>
+              <h3>Shipping Address</h3>
+            </div>
+            <div class="address-inputs">
+              <div class="input-cont-shared">
+                <div class="input-container">
+                  <label for="first-name">First Name</label>
+                  <input
+                    class="shared"
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="last-name">Last Name</label>
+                  <input
+                    class="shared"
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                  />
+                </div>
+              </div>
+              <div class="input-container">
+                <label for="address">Address</label>
+                <input class="shared" type="text" name="address" id="address" />
+              </div>
+              <div class="input-container">
+                <label for="apartment">Apartment, suite, etc. (optional)</label>
+                <input
+                  class="shared"
+                  type="text"
+                  name="apartment"
+                  id="apartment"
+                />
+              </div>
+              <div class="input-cont-shared">
+                <div class="input-container">
+                  <label for="city">City</label>
+                  <input class="shared" type="text" name="city" id="city" />
+                </div>
+                <div class="input-container">
+                  <label for="country">Country</label>
+                  <input
+                    class="shared country"
+                    type="text"
+                    name="country"
+                    id="country"
+                    placeholder="Canada"
+                  />
+                </div>
+              </div>
+              <div class="input-cont-shared">
+                <div class="input-container">
+                  <label for="province">Province/State</label>
+                  <input
+                    class="shared"
+                    type="text"
+                    name="province"
+                    id="province"
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="code">Postal Code</label>
+                  <input class="shared" type="text" name="code" id="code" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="payment">
+            <div class="cont-info gray-c">
+              <div>3</div>
+              <h3>Payment</h3>
+            </div>
+            <div class="trans">
+              <img
+                src="../assets/images/svg/security.svg"
+                alt="Security lock icon"
+              />
+              <p>All transactions are secure and encrypted.</p>
+            </div>
+            <div class="credit-card">
+              <div class="cards-header">
+                <div class="card-name">
+                  <input
+                    type="text"
+                    class="checked"
+                    aria-label="Select credit card payment"
+                  />
+                  <p>Credit Card</p>
+                </div>
+                <div class="cards">
+                  <img
+                    src="../assets/images/img/cart/banks/hvisa.svg"
+                    alt="Visa logo"
+                  />
+                  <img
+                    src="../assets/images/img/cart/banks/hmast.svg"
+                    alt="MasterCard logo"
+                  />
+                  <img
+                    src="../assets/images/svg/amex.svg"
+                    alt="American Express logo"
+                  />
+                </div>
+              </div>
+              <div class="payment-inputs">
+                <input
+                  class="shared"
+                  type="text"
+                  placeholder="1234 5678 9012 3456"
+                  aria-label="Card number"
+                />
+                <input
+                  class="shared"
+                  type="text"
+                  placeholder="Name on card"
+                  aria-label="Name on card"
+                />
+                <div>
+                  <input
+                    class="shared"
+                    type="text"
+                    placeholder="MM / YY"
+                    aria-label="Expiry date"
+                  />
+                  <input
+                    class="shared"
+                    type="text"
+                    placeholder="CVC"
+                    aria-label="CVC code"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="order-summary" aria-label="Order summary">
+          <div class="check">
+            <img src="../assets/images/svg/check.svg" alt="Receipt icon" />
+            <h2>Order Summary</h2>
+          </div>
+          <div class="custom-bag">
+            <div class="custom-img">
+              <img
+                src="../assets/images/img/checkout-bag.png"
+                alt="Custom Tote Bag"
+              />
+            </div>
+            <div class="custom-desc">
+              <p>Custom Tote Bag</p>
+              <span>Color: Midnight Black</span>
+              <span>Strap: Premium Chain</span>
+              <span>Add-ons: Extra Pocket</span>
+            </div>
+            <p>$214.00</p>
+          </div>
+          <div class="design">
+            <div class="finalize-design">
+              <img src="../assets/images/svg/palette2.svg" alt="Palette icon" />
+              <h3>Finalize Your Design</h3>
+            </div>
+            <div class="palette-inputs">
+              <div class="color-selection">
+                <p>Color Selection</p>
+                <div
+                  class="color-palette"
+                  role="group"
+                  aria-label="Color options"
+                >
+                  <div class="black" aria-label="Black color option"></div>
+                  <div class="white" aria-label="White color option"></div>
+                  <div class="orange" aria-label="Orange color option"></div>
+                  <div class="green" aria-label="Green color option"></div>
+                </div>
+              </div>
+              <div class="add-on">
+                <p>Premium Add-ons <span>(+$15 each)</span></p>
+                <div class="add-on-inputs">
+                  <div class="add-on-item">
+                    <input type="checkbox" aria-label="Custom Monogramming" />
+                    <div class="add-on-desc">
+                      <p>Custom Monogramming</p>
+                      <span>Add your initials in gold foil</span>
+                    </div>
+                    <img src="../assets/images/svg/a-icon.svg" alt="A icon" />
+                  </div>
+                  <div class="add-on-item blue-it">
+                    <input type="text" aria-label="Extra Interior Pocket" />
+                    <div class="add-on-desc">
+                      <p>Extra Interior Pocket</p>
+                      <span>Zippered compartment for valuables</span>
+                    </div>
+                    <img src="../assets/images/svg/pluss.svg" alt="Plus icon" />
+                  </div>
+                  <div class="add-on-item">
+                    <input type="checkbox" aria-label="Protective Dust Bag" />
+                    <div class="add-on-desc">
+                      <p>Protective Dust Bag</p>
+                      <span>Premium cotton storage bag</span>
+                    </div>
+                    <img
+                      src="../assets/images/svg/shield.svg"
+                      alt="Shield icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="summary-button">
+            <input
+              class="shared"
+              type="text"
+              id="discount"
+              placeholder="Discount code or gift card"
+              aria-label="Discount code input"
+            />
+            <button aria-label="Apply discount">Apply</button>
+          </div>
+        </section>
+      </main>
+
+      <footer role="contentinfo">
+        <div class="footer-container">
+          <div class="subscription">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>
+              AND BE THE FIRST TO KNOW ABOUT THE LATEST RELEASES, OFFERS AND
+              NEWS FROM BAGSTORE.COM
+            </p>
+            <div>
+              <input
+                type="email"
+                placeholder="Enter your email here"
+                aria-label="Newsletter subscription email"
+              />
+              <div>
+                <img
+                  src="../assets/images/svg/arrow-right.svg"
+                  alt="Submit subscription"
+                />
+              </div>
+            </div>
+            <span>I have read and agree to the Bagstore privacy policy.</span>
+          </div>
+          <div class="footer-links">
+            <h3>Menu</h3>
+            <nav aria-label="Footer menu">
+              <ul>
+                <li><a href="#">Man</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Children</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-links">
+            <h3>Support</h3>
+            <nav aria-label="Footer support links">
+              <ul>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

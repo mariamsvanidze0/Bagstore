@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="MS" />
+    <meta name="description" content="Shop at Bagstore." />
+    <link
+      rel="icon"
+      href="../assets/images/img/iconn.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/vendor/reset.css" />
+    <link rel="stylesheet" href="../assets/styles/styles.css" />
+    <link rel="stylesheet" href="../assets/styles/components/breadcrumb.css" />
+    <link rel="stylesheet" href="../assets/styles/components/header.css" />
+    <link rel="stylesheet" href="../assets/styles/components/footer.css" />
+    <link rel="stylesheet" href="../assets/styles/pages/featured.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bagstore</title>
+  </head>
+  <body>
+    <div class="frame">
+      <header role="banner">
+        <div class="header-container">
+          <div>
+            <img src="../assets/images/svg/tabs.svg" alt="tabs-icon" />
+            <a href="../index.html">Bagstore</a>
+          </div>
+          <nav aria-label="Main Navigation">
+            <ul>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Children</a></li>
+              <li><a href="#">Brand</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+            </ul>
+          </nav>
+          <div>
+            <input type="text" placeholder="Search..." aria-label="Search" />
+
+            <a href="#">About</a>
+            <a href="#">FAQs</a>
+
+            <nav aria-label="User Menu">
+              <a href="#">
+                <img src="../assets/images/svg/person.svg" alt="person-icon" />
+              </a>
+              <a href="#">
+                <img src="../assets/images/svg/heart.svg" alt="heart-icon" />
+              </a>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/bag.svg"
+                  alt="shoppingbag-icon"
+                />
+                <img
+                  src="../assets/images/svg/notification.svg"
+                  alt="notification"
+                />
+              </a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- ///main -->
+      <main role="main">
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="mx-2">/</li>
+            <li class="breadcrumb-item"><a href="/woman">Woman</a></li>
+            <li class="mx-2">/</li>
+            <li class="breadcrumb-item active" aria-current="page">All Bags</li>
+          </ol>
+        </nav>
+        <div class="content">
+          <aside
+            class="filters"
+            role="complementary"
+            aria-label="Product Filters"
+          >
+            <div class="filter-container">
+              <div class="filters-header">
+                <h3>Filters</h3>
+                <span role="button" tabindex="0">Clear all</span>
+              </div>
+              <div class="category">
+                <h4>Category</h4>
+                <div class="inputs">
+                  <div><input type="checkbox" /> <span>All Bags</span></div>
+                  <div><input type="checkbox" /><span>Totes</span></div>
+                  <div><input type="checkbox" /><span>Crossbody</span></div>
+                  <div><input type="checkbox" /><span>Satchels</span></div>
+                  <div><input type="checkbox" /><span>Clutches</span></div>
+                </div>
+              </div>
+              <div class="price-range">
+                <h4>Price Range</h4>
+                <div class="range">
+                  <div></div>
+                  <div><span>$50</span><span>$500+</span></div>
+                </div>
+              </div>
+              <div class="colors">
+                <h4>Color</h4>
+                <div class="color-palette">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+              <div class="brand">
+                <h4>Brand</h4>
+                <div class="inputs brands">
+                  <div><input type="checkbox" /> <span>Bagstore</span></div>
+                  <div><input type="checkbox" /><span>Artisan Co.</span></div>
+                  <div><input type="checkbox" /><span>Urban Vogue</span></div>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <section class="items" aria-label="Product Listings">
+            <div class="items-header">
+              <h1>Women's Bags</h1>
+              <div>
+                <p>Showing 1-12 of 84 products</p>
+                <button aria-haspopup="listbox">Sort by: Most Popular</button>
+              </div>
+            </div>
+            <div class="items-content">
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <div class="img-icons heart">
+                    <div>
+                      <img
+                        src="../assets/images/svg/heart-circle.svg"
+                        alt="heart-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="img-icons cart">
+                    <img
+                      src="../assets/images/svg/cart-circle.svg"
+                      alt="cart-icon"
+                    />
+                  </div>
+                  <img
+                    src="../assets/images/img/features/hobo.png"
+                    alt="hobo bag"
+                  />
+                </a>
+
+                <p class="item-name">Hobo Small</p>
+                <p class="item-price">$199.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="bl checked-circle"></div>
+                  <div class="wh"></div>
+                  <div class="nv"></div>
+                </div>
+              </div>
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <img
+                    src="../assets/images/img/features/satchel.png"
+                    alt="satchel bag"
+                  />
+                </a>
+
+                <p class="item-name">Satchel Medium</p>
+                <p class="item-price">$249.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="bl"></div>
+                  <div class="wh checked-circle"></div>
+                  <div class="nv"></div>
+                </div>
+              </div>
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <img
+                    src="../assets/images/img/features/tote-large.png"
+                    alt="tote bag"
+                  />
+                </a>
+
+                <p class="item-name">Tote Large</p>
+                <p class="item-price">$299.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="bl"></div>
+                  <div class="wh"></div>
+                  <div class="nv checked-circle"></div>
+                </div>
+              </div>
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <img
+                    src="../assets/images/img/features/crossbody.png"
+                    alt="crossbody bag"
+                  />
+                </a>
+
+                <p class="item-name">Crossbody Compact</p>
+                <p class="item-price">$179.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="bl checked-circle"></div>
+                  <div class="wh"></div>
+                  <div class="nv"></div>
+                </div>
+              </div>
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <img
+                    src="../assets/images/img/features/woven.png"
+                    alt="woven bag"
+                  />
+                </a>
+
+                <p class="item-name">Woven Tote</p>
+                <p class="item-price">$320.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="bl"></div>
+                  <div class="wh"></div>
+                </div>
+              </div>
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <img
+                    src="../assets/images/img/features/clutch.png"
+                    alt="clutch bag"
+                  />
+                </a>
+
+                <p class="item-name">Mini Clutch</p>
+                <p class="item-price">$150.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="bl checked-circle"></div>
+                  <div class="nv"></div>
+                </div>
+              </div>
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <img
+                    src="../assets/images/img/features/backpack.png"
+                    alt="backpack bag"
+                  />
+                </a>
+
+                <p class="item-name">Leather Backpack</p>
+                <p class="item-price">$250.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="bl checked-circle"></div>
+                </div>
+              </div>
+              <div class="single-item">
+                <a class="item-img" href="./item.html">
+                  <img
+                    src="../assets/images/img/features/canvas.png"
+                    alt="canvas bag"
+                  />
+                </a>
+
+                <p class="item-name">Canvas Shopper</p>
+                <p class="item-price">$99.00 CAD</p>
+                <div class="item-colors" aria-label="Available colors">
+                  <div class="wh checked-circle"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- ////foooter//// -->
+      <footer role="contentinfo">
+        <div class="footer-container">
+          <div class="subscription">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>
+              AND BE THE FIRST TO KNOW ABOUT THE LATEST RELEASES, OFFERS AND
+              NEWS FROM BAGSTORE.COM
+            </p>
+            <div>
+              <input
+                type="text"
+                placeholder="Enter your email here"
+                aria-label="Newsletter Email"
+              />
+              <div>
+                <img
+                  src="../assets/images/svg/arrow-right.svg"
+                  alt="arrow-right-icon"
+                />
+              </div>
+            </div>
+            <span>I have read and agree to the bagstore privacy policy.</span>
+          </div>
+          <div class="footer-links">
+            <h3>Menu</h3>
+            <nav aria-label="Footer Menu">
+              <ul>
+                <li><a href="#">Man</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Children</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-links">
+            <h3>Support</h3>
+            <nav aria-label="Footer Support">
+              <ul>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
