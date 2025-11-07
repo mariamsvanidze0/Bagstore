@@ -55,24 +55,6 @@ Google Fonts – Elegant and responsive typography
 
 Custom SVGs – Optimized vector icons
 
-📂 Folder Structure
-
-Bagstore/
-├── assets/
-│   ├── images/
-│   ├── styles/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── styles.css
-│   └── vendor/reset.css
-├── index.html
-├── pages/
-│   ├── featured.html
-│   ├── item.html
-│   ├── shoppingBag.html
-│   ├── cart.html
-│   └── checkout.html
-└── README.md
 
 
 🚀 How to Run
