@@ -1,3 +1,5 @@
+https://mariamsvanidze0.github.io/Bagstore/
+
 👜 Bagstore – Modern E-Commerce Website
 
 Bagstore is a stylish, fully responsive front-end e-commerce website for showcasing and customizing luxury leather bags.
